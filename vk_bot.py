@@ -36,6 +36,6 @@ class Vkbot:
         if message.upper() == self.commands[0]:
             return f"Привет {self._user_name}"
         elif message.upper() == self.commands[1]:
-            return f"Привет {self._user_name}"
+            return f"Пока {self._user_name}"
         else:
             return 'Я не понимаю о чем вы говорите'
