@@ -6,7 +6,7 @@ class UsersBd:
     def __init__(self):
         self.database = 'vk_user'
         self.user = 'postgres'
-        self.password = '...'
+        self.password = '....'
         self.connect = psycopg2.connect(database=self.database, user=self.user, password=self.password)
         self.cursor = self.connect.cursor()
         self.connect.autocommit = True
