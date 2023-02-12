@@ -4,10 +4,10 @@ from datetime import  date
 
 class Vk_user:
 
-    def __init__(self, user_id, vk, token_1):
+    def __init__(self, user_id, vk, token_2):
         self._user_id = user_id
         self.vk = vk
-        self.token_1 = token_1
+        self.token_1 = token_2
         self.list_users = []
 
     def get_users_date(self):
