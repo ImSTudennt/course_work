@@ -30,7 +30,7 @@ with open(r'C:\Users\vladi\Desktop\project\key_api.txt', 'r') as f:
     token = f.read()
 
 
-token_1 = "...." # Токен админа чат бота 
+token_1 = "..." # Токен админа чат бота 
 
 settings_1 = dict(one_time=False, inline=True)
 settings = dict(one_time=True, inline=False)
